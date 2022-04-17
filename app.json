@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "MentalHealthApp",
+    "slug": "MentalHealthApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/iconheart.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package" :"namichanz.todoapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/iconheart.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
